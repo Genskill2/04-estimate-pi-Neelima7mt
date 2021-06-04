@@ -41,21 +41,19 @@ int main(void) {
   float mc_pi(int n)
 {  float pi,x=0,y=0,z;
 int count=0;
-    for(int i = 0; i < n; ++i) {
-
-     x = frandom();
-
-     y = frandom();
-
-     z = x * x + y * y;
-
-     if( z <= 1 ) count++;
+    for(int i = 0; i < n; i++) 
+    {
+      x = frandom();
+      y = frandom();
+     z = (x * x) + (y * y);
+      if( z <= 1 ) 
+        count++;
  }
 
 
  pi = (double) (count* 4)/n;
 
- return pi;
+ return (pi);
 }
 
        
