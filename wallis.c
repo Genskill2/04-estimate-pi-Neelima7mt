@@ -31,6 +31,6 @@ float wallis_pi(int i)
     {
          pi= pi*((4*j*j) / (( 4*j*j)-1));
     }
-  pi= pi*2;
+  pi= pi*2.000;
    return pi;
 }
