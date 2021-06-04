@@ -39,7 +39,7 @@ int main(void) {
   }
 }
   float mc_pi(int n)
-{  float pi,x,y,z;
+{  float pi,x=0,y=0,z;
 int count=0;
     for(int i = 0; i < n; ++i) {
 
@@ -53,7 +53,7 @@ int count=0;
  }
 
 
- pi = (double) count* 4/n;
+ pi = (double) (count* 4)/n;
 
  return pi;
 }
