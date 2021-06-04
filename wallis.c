@@ -29,7 +29,8 @@ float wallis_pi(int i)
     float pi=1.000;
     for(int j=1; j<=i;j++)
     {
-         pi= pi*2*((4*j*j) / (( 4*j*j)-1));
+         pi= pi*((4*j*j) / (( 4*j*j)-1));
     }
+  pi= pi*2;
    return pi;
 }
