@@ -53,7 +53,7 @@ int count=0;
  }
 
 
- pi = ((double) count / n )* 4;
+ pi = (double) count* 4/n;
 
  return pi;
 }
